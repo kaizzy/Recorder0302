@@ -198,11 +198,14 @@
             "English",
             "France",
             "German",
-            "China"});
+            "China",
+            "Russia",
+            "Huawei"});
             this.List_Language.Location = new System.Drawing.Point(710, 54);
             this.List_Language.Name = "List_Language";
             this.List_Language.Size = new System.Drawing.Size(307, 104);
             this.List_Language.TabIndex = 12;
+            this.List_Language.SelectedIndexChanged += new System.EventHandler(this.List_Language_SelectedIndexChanged);
             // 
             // Form1
             // 
